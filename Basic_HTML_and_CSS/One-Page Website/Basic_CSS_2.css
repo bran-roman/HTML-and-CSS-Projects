@@ -1,0 +1,22 @@
+/*----------------------------------------------------------
+    GENERIC STYLES
+----------------------------------------------------------*/
+html{
+	font-family: sans-serif;
+	font-size:62.5%;
+}
+
+p {
+	color: snow;
+	background: black;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size:
+}
+
+h1 {
+	text-shadow: 2px 2px #FF0000;
+	font-family: 'Courier New', Courier, monospace;
+	font-size:
+}
