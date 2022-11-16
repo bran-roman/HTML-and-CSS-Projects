@@ -1,0 +1,206 @@
+/*----------------------------------------------------------
+   NAVBAR
+----------------------------------------------------------*/
+.navbar {
+    overflow: hidden;
+    background-color: #7eb9b0;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*----------------------------------------------------------
+    NAVBAR BACKGROUND
+----------------------------------------------------------*/
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+h1{
+    text-align:center;
+}
+
+p{
+    text-align:center;
+}
+/*----------------------------------------------------------
+    BODY HEADER IMAGE / TEXT / VIDEO
+----------------------------------------------------------*/
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  z-index:1;
+}
+
+img{
+  display:block;
+  width:50%;
+  height: auto;
+}
+
+.text{
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+
+.video{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: center;
+  text-align: center;
+  color:white;
+  display:block;
+  z-index:0;
+}
+
+
+.video:hover .overlay{
+  opacity: 5;
+}
+
+.overlaytext{
+  position: center;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  top:30%;
+  left:20%;
+  width: 100%;
+  height:100%;
+  color: #fff;
+  mix-blend-mode:multiply;
+}
+
+.overlaytext h3{
+  text-transform: uppercase;
+  font-size: clamp(5rem, 10vw, 10rem);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.text h3{
+  text-transform: uppercase;
+  font-size: clamp(5rem, 10vw, 10rem);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container:hover .overlay{
+  opacity: 1;
+}
+
+/*----------------------------------------------------------
+    TABLE
+----------------------------------------------------------*/
+#table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){background-color:#f2f2f2;}
+
+#table tr:hover {background-color:darkgoldenrod;}
+
+#table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7eb9b0;
+    color: white;
+}
+
+/* TWO COLUMN LAYOUT */
+/*----------------------------------------------------------
+    TWO COLUMN LAYOUT
+----------------------------------------------------------*/
+*{
+    box-sizing: border-box;
+}
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height:200px;
+    width:50%
+  }
+  
