@@ -8,4 +8,4 @@ Challenge Assignments:
 The assignments contained in this folder are part of different steps in training in regards to learning Basic HTML and CSS. These steps inlcude but are not limited to: Creating Lists, Style Elements, Media Query, Forms, Tables and more.
 
 One Page Website:
-This home page is an example of a one-page website which contains a navbar, image containers, and a form.
+This home page is an example of a one-page website containg a navbar, image containers, and a form.
